@@ -26,3 +26,11 @@ Bibtex：
   url = "https://github.com/ZhuiyiTechnology/simbert",
 }
 ```
+
+ ## 联系我们
+
+邮箱：ai@wezhuiyi.com
+
+## 相关链接
+
+追一科技：https://zhuiyi.ai

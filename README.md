@@ -1,6 +1,8 @@
 # SimBERT
 基于UniLM思想、融检索与生成于一体的BERT模型。
 
+权重下载：https://github.com/ZhuiyiTechnology/pretrained-models
+
 ## 模型简介
 
 <img src="https://kexue.fm/usr/uploads/2020/05/2840550561.png" width=600 alt="SimBERT训练方式示意图.png" />

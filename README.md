@@ -25,7 +25,7 @@ Bibtex：
   title={SimBERT: Integrating Retrieval and Generation into BERT},
   author={Jianlin Su},
   year={2020},
-  url = "https://github.com/ZhuiyiTechnology/simbert",
+  url="https://github.com/ZhuiyiTechnology/simbert",
 }
 ```
 

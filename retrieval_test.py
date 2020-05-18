@@ -50,6 +50,7 @@ test_data = load_data('datasets/lcqmc/lcqmc.test.data')
 # 测试相似度效果
 data = valid_data
 a_token_ids, b_token_ids, labels = [], [], []
+texts = []
 
 for d in data:
     token_ids = tokenizer.encode(d[0], max_length=maxlen)[0]
@@ -57,6 +58,7 @@ for d in data:
     token_ids = tokenizer.encode(d[1], max_length=maxlen)[0]
     b_token_ids.append(token_ids)
     labels.append(d[2])
+    texts.extend(d[:2])
 
 a_token_ids = sequence_padding(a_token_ids)
 b_token_ids = sequence_padding(b_token_ids)

@@ -22,7 +22,7 @@ maxlen = 32
 batch_size = 128
 steps_per_epoch = 1000
 epochs = 10000
-corpus_path = '/root/synonyms_shuf.json'
+corpus_path = 'data_sample.json'
 
 # bert配置
 config_path = '/root/kg/bert/chinese_L-12_H-768_A-12/bert_config.json'
